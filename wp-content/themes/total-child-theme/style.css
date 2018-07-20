@@ -1,0 +1,1107 @@
+/*!
+ Theme Name: Total Child
+ Theme URI: http://totalwptheme.com
+ Description: Total WordPress child theme.
+ Author: AJ Clarke
+ Author URI: http://totalwptheme.com
+ Template: Total
+ Version: 1.1
+ Text Domain: total-child
+*/
+/* Parent stylesheet should be loaded from functions.php not using @import */
+@import url('fonts/TradeGothicDisplay1-Layer1/TradeGothicDisplay1-Layer1.css');
+@import url('fonts/Gothic-A1/Gothic-A1.css');
+@import url('fonts/Rubik/Rubik.css');
+
+/**
+ * General
+ */
+html {
+	font-size: 100%;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+p, li {
+	font-family: Gothic-A1, sans-serif;
+	font-weight: 700;
+	font-size: 1.4em;
+	line-height: 1.4em
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+/**
+ * Header
+ */
+#site-header {
+	background-color: #fff;
+}
+
+/* Header Top */
+.cww-header-top {
+	background-color: #fff;
+}
+
+.cww-header-top .top-buttons {
+	padding-top: 35px;
+	text-align: right;
+}
+
+.cww-header-top .top-buttons a {
+	font-family: Gothic-A1, sans-serif;
+	vertical-align: middle;
+	background-color: #67c6e0;
+	color: #fff;
+	text-align: center;
+	margin-right: 1em;
+	margin-left: 0;
+}
+
+.cww-header-top .top-buttons a.vc_btn3,
+.cww-header-top .top-buttons .taco-btn {
+	font-family: Gothic-A1, sans-serif;
+	padding: 0.5em 1.1em;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	border-radius: 0.3em;
+	border: 0;
+	margin-right: 1em;
+	height: 40px;
+	transition: 0.15s all ease;
+}
+
+.cww-header-top .top-buttons a.vc_btn3:hover,
+.cww-header-top .top-buttons .taco-btn:hover {
+	opacity: 0.6;
+}
+
+.cww-header-top .top-buttons .taco-btn,
+.cww-header-top .top-buttons .wpex-fa-social-widget,
+.cww-header-top .top-buttons .by-button-widget {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 1em;
+	float: none;
+	vertical-align: middle;
+	font-size: 1.1em;
+}
+
+/* Social buttons in Header Top */
+.cww-header-top .top-buttons .wpex-fa-social-widget ul {
+	font-size: inherit !important;
+	margin-bottom: 0;
+}
+
+.cww-header-top .top-buttons .wpex-fa-social-widget ul li {
+	margin-right: 0;
+	margin-bottom: 0;
+	font-size: inherit;
+}
+
+.cww-header-top .top-buttons .wpex-fa-social-widget ul li a {
+	font-size: inherit;
+	margin-right: 1em;
+}
+
+.cww-header-top .top-buttons .wpex-fa-social-widget ul li a .fa {
+	font-size: 1.4em;
+	vertical-align: middle;
+}
+
+/* Buy-Button button in Header Top */
+.cww-header-top .top-buttons .by-button-widget .t-buy-tickets-btn {
+	margin: 0;
+}
+
+.cww-header-top .top-buttons .by-button-widget .t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+	background-image: none !important;
+	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	background-color: #e30613;
+	color: #fff;
+	padding: 0.1em 0.6em;
+	font-size: 1.8em;
+	border-radius: 0.3em;
+	text-align: center;
+	height: 40px;
+	border: 0;
+}
+
+/* Header Bottom */
+.cww-header-bottom {
+	position: unset !important;
+	min-height: 526px;
+	background-color: #fff;
+	background-size: cover;
+	text-align: center;
+}
+
+.cww-header-bottom h1 {
+	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	font-size: 3.5em;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 0;
+	line-height: 1.4em;
+}
+
+.cww-header-bottom h2 {
+	font-family: Gothic-A1, sans-serif;
+	font-size: 1.95em;
+	color: #fff;
+	line-height: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Logo */
+.cww-header-bottom #site-logo {
+	display: block;
+	padding-left: 30px;
+	margin-top: -85px;
+}
+
+.cww-logo {
+	max-width: 345px;
+	display: block !important;
+}
+
+/* Logo Mobile */
+#site-logo-mobile,
+.adaptive-menu {
+	display: none;
+}
+
+/* Main Menu */
+.cww-header-bottom .menu-navigation-container {
+	display: block;
+	text-align: center;
+}
+
+#primary-menu {
+	margin-bottom: 0;
+	padding-top: 35px;
+}
+
+#primary-menu li {
+	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+	display: inline-block;
+	font-weight: 600;
+	text-decoration: none;
+	margin: 15px 10px;
+}
+
+#primary-menu li a {
+	color: #fff;
+}
+
+#primary-menu li.current-menu-item {
+	text-decoration: underline;
+}
+
+#primary-menu li.current-menu-item a {
+	color: yellow;
+}
+
+/* Mobile Menu */
+.header-menu-mobile {
+	display: none;
+}
+
+.adaptive-menu {
+	position: absolute;
+	right: 35px;
+	top: 35px;
+	cursor: pointer;
+	color: #67c6e0;
+	font-size: 3.2em;
+}
+
+.adaptive-menu.adaptive-sticky {
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+}
+
+.admin-bar .adaptive-menu.adaptive-sticky {
+	top: 32px;
+}
+
+.adaptive-menu .fa {
+	line-height: 60px;
+	vertical-align: middle;
+}
+
+/* Buy-Button button in Header Bottom */
+.cww-header-bottom .vc_general.vc_btn3.buy-button {
+	background-image: none !important;
+	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	font-size: 4.7em;
+	line-height: 1em;
+	text-align: center;
+	margin: 70px 0 0;
+	color: #fff;
+	background-color: #C61D20;
+	display: inline-block;
+	padding: 0.05em 0.7em 0.15em;
+	border-radius: 0.3em
+}
+
+/* Sticky Header */
+.cww-sticky-header {
+	display: none;
+	position: relative;
+	top: 0;
+	right: 0;
+	vertical-align: middle;
+	background-color: #fff;
+	width: 100%;
+	z-index: 9999;
+}
+
+.admin-bar .cww-sticky-header {
+	padding-top: 32px;
+}
+
+.stick {
+	display: block;
+	position: fixed;
+}
+
+.sticky-logo {
+	display: block;
+	float: left;
+	width: 16%;
+	min-width: 120px;
+	text-align: right;
+}
+
+.sticky-logo img {
+	width: 295px;
+	transition: width 500ms;
+}
+
+.sticky-logo img.show-small {
+	width: 120px;
+}
+
+/* Sticky Header Menu */
+.cww-sticky-header .menu-navigation-container {
+	display: block;
+	padding-top: 0;
+	float: left;
+	width: 84%;
+	max-width: calc(100% - 120px);
+	text-align: center;
+}
+
+.header-sticky-menu {
+	margin-bottom: 0;
+}
+
+#primary-sticky-menu li {
+	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	margin-right: 42px;
+	line-height: 4em;
+}
+
+#primary-sticky-menu li.current-menu-item {
+	text-decoration: underline;
+}
+
+#primary-sticky-menu li.current-menu-item a {
+	color: purple;
+}
+
+/**
+ * Content
+ */
+.container {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.vc_row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.vc_column_container > .vc_column-inner {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+/* Slider after Header */
+.wave-border {
+	margin-top: -65px;
+	max-height: 210px;
+}
+
+.wave-border.sponsor {
+	margin-top: -30px;
+}
+
+.wave-border img {
+	max-height: 210px;
+}
+
+.wave-border * {
+	width: 100%;
+}
+
+/* Promo columns */
+.promo-columns-wrapper {
+	text-align: center;
+	justify-content: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.promo-columns {}
+
+.promo-columns:first-child {
+	padding-left: 0 !important;
+}
+
+.promo-columns:last-child {
+	padding-right: 0 !important;
+}
+
+.promo-columns .vc_column-inner > .wpb_wrapper {
+	padding: 15px;
+}
+
+.promo-columns p {
+	margin-bottom: 7px;
+}
+
+.promo-columns img {
+	width: auto;
+}
+
+.promo-columns.admission-general img {
+	padding-top: 60px;
+	height: 260px;
+}
+
+.promo-columns.admission-vip img {
+	height: 260px;
+}
+
+.promo-columns ul {
+	margin: 30px 0;
+	list-style: none
+}
+
+.promo-columns ul li {
+	padding-left: 1em;
+	text-align: center;
+}
+
+.promo-columns ul li::before {
+	content: " ";
+	display: inline-block;
+	width: 0.5em;
+	height: 0.5em;
+	margin-left: -1em;
+	margin-right: 0.2em;
+	margin-bottom: 0.1em;
+	border-radius: 50%;
+}
+
+.promo-columns.admission-general ul li::before {
+	background-color: #67c6e0;
+}
+
+.promo-columns.admission-vip ul li::before {
+	background-color: #971762;
+}
+
+.promo-columns h1, .promo-columns-mobile h1 {
+	margin-bottom: 0;
+}
+
+.promo-columns h4, .promo-columns-mobile h4 {
+	font-size: 1.8em;
+	margin-top: 0;
+	font-weight: 800;
+	color: #702382;
+}
+
+.promo-images {}
+
+.promo-text {}
+
+/* Contact Form */
+.wpcf7-form .vc_column-inner {
+	margin-bottom: 0;
+}
+
+.wpcf7-form input:not([type=submit]),
+.wpcf7-form textarea,
+.wpcf7-form select {
+	width: 100%;
+	min-height: 50px;
+	font-family: Gothic-A1, sans-serif;
+	font-size: 1.4em;
+	color: #5a2918;
+	line-height: 1.4;
+	font-weight: 700;
+	/*border: 0;*/
+	background: rgba(90, 41, 24, 0.1);
+	padding: 6px 12px;
+}
+
+.wpcf7-form textarea {
+	min-width: 280px;
+}
+
+.wpcf7-form input[type=submit] {
+	color: #fff;
+	font-family: Gothic-A1, sans-serif;
+	font-size: 1.4em;
+	font-weight: 700;
+	line-height: 1.4;
+	background: #67c6e0;
+	width: 100%;
+	height: 50px;
+	border-radius: 0;
+}
+
+/* Buy-Button button */
+.vc_btn3-container.t-buy-tickets-btn {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 20px 0;
+}
+
+.t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+	background-image: none !important;
+	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	font-size: 4.7em;
+	font-weight: 400;
+	line-height: 1em;
+	text-align: center;
+	margin: 0;
+	color: #fff;
+	background-color: #C61D20;
+	display: inline-block;
+	padding: 0.05em 0.7em 0.15em;
+	border-radius: 0.3em;
+	border: 0;
+	transition: 0.15s all ease;
+}
+
+.t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern:hover {
+	opacity: 0.6;
+}
+
+/**
+ * Footer
+ */
+#before-footer {}
+
+#after-footer {
+	padding-bottom: 40px;
+}
+
+#before-footer img,
+#after-footer img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#footer-bottom {
+	padding: 0 10%;
+	background: #5a2918;
+	font-size: 1em;
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+
+#footer-bottom-inner {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#footer-bottom .footer-col {
+	padding: 0 15px;
+}
+
+#footer-bottom .footer-col:first-of-type {}
+
+#footer-bottom .footer-col:last-of-type {}
+
+#footer-bottom h1,
+#footer-bottom h2,
+#footer-bottom h3,
+#footer-bottom h4,
+#footer-bottom h5,
+#footer-bottom h6,
+#footer-bottom p {
+	color: #fff;
+	text-align: center;
+}
+
+#footer-bottom h4 {
+	font-family: Rubik, sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 1.7em;
+	margin: 30px 0;
+	padding: 0 15px;
+	line-height: 1.1em;
+}
+
+#footer-bottom p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+#footer-bottom .footer-widget {
+	padding-bottom: 20px;
+}
+
+#footer-bottom .wpex-newsletter-widget {
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+#footer-bottom .wpex-newsletter-widget-heading {
+	font-family: Gothic-A1, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	padding: 0;
+	margin: 0 0 10px;
+}
+
+#footer-bottom .wpex-newsletter-widget label {
+	width: 100%;
+}
+
+#footer-bottom .wpex-newsletter-widget input[type="email"] {
+	font-family: Gothic-A1, sans-serif;
+	font-size: 1.4em;
+	font-weight: 700;
+	display: block;
+	padding: 0 0.4em 0 0.5em;
+	margin: 0 0 5px;
+	height: 50px;
+	width: 100%;
+	color: #a6a6a6;
+	border: 1px solid #971762;
+	border-radius: 0;
+	text-align: left;
+}
+
+#footer-bottom .wpex-newsletter-widget button {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0 0 10px 0;
+	height: 50px;
+	font-size: 1.7em;
+	font-family: Gothic-A1, sans-serif;
+	font-weight: 700;
+	background-color: #971762;
+	border-radius: 0;
+	transition: 0.15s all ease;
+}
+
+#footer-bottom .wpex-newsletter-widget button:hover {
+	opacity: 0.6;
+}
+
+#mc_embed_signup #mce-EMAIL {
+	font-family: Gothic-A1, sans-serif;
+	font-size: 1.4em;
+	font-weight: 700;
+	display: block;
+	padding: 0 0.4em 0 0.5em;
+	margin: 0 5% 10px 0;
+	height: 50px;
+	width: 100%;
+	color: #a6a6a6;
+	border: 1px solid #971762;
+	border-radius: 0;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+	display: block;
+	width: 100%;
+	margin: 0 0 10px 0;
+	height: 50px;
+	font-size: 1.7em;
+	font-family: Gothic-A1, sans-serif;
+	font-weight: 700;
+	background-color: #971762;
+	border-radius: 0;
+}
+
+#footer-bottom #mc_embed_signup form {
+	padding-left: 0;
+}
+
+#footer-bottom .blue-footer-column .vc_column-inner {
+	padding-bottom: 10px;
+	background-color: #64c5e1;
+}
+
+#footer-bottom .blue-footer-column p {
+	padding: 0 15px;
+	color: #3c3c3b;
+}
+
+#footer-bottom .black-footer-text {
+	color: #3c3c3b;
+}
+
+#footer-bottom .vc_btn3.vc_btn3-size-md.buy-button-footer {
+	background-color: #fff;
+	border-radius: 8px;
+	color: #d41039;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	min-height: 50px;
+	width: 85%;
+	display: block;
+	margin: 10% auto;
+	line-height: 50px;
+}
+
+#primary-menu-footer {}
+
+#primary-menu-footer li,
+#footer-bottom #menu-navigation li {
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 1.35em;
+}
+
+#primary-menu-footer li a,
+#footer-bottom #menu-navigation li a {
+	font-family: TradeGothicDisplay1-Layer1, sans-serif, sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+}
+
+#primary-menu-footer li a:hover,
+#footer-bottom #menu-navigation li a:hover {
+	text-decoration: underline;
+}
+
+#footer-bottom .wpex-social-btn {
+	background-color: #fff !important;
+	border-radius: 50% !important;
+	font-size: 32px;
+	width: 1.6em;
+	height: 1.6em;
+	color: #5a2918 !important;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+#footer-bottom .white-footer-column .vc_column-inner {
+	background: #f2f2f1;
+}
+
+#footer-bottom .white-footer-column h4 {
+	color: #3c3c3b;
+}
+
+#footer-bottom .white-footer-column img {
+	width: 100%;
+}
+
+#footer-bottom .white-footer-column img:last-child {
+	margin: 20px auto;
+	max-width: 70%;
+	height: auto;
+}
+
+.LTGridContainer .category-container:last-child {
+	margin-bottom: 0 !important;
+}
+
+.thumbnail {
+	margin-bottom: 0 !important;
+	padding: 0 !important;
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.recent-posts-content {
+	text-align: center;
+}
+
+@media (max-width: 1280px) {
+	.cww-header-bottom #site-logo {
+		width: 22%;
+		min-width: 160px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.cww-header-bottom #site-logo {
+		width: 20%;
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 991px) {
+	.cww-header-top {
+		margin-bottom: 220px;
+	}
+
+	.cww-header-top .top-buttons {
+		margin-left: 0;
+		text-align: center;
+		padding-right: 8%;
+	}
+
+	.cww-header-top .top-buttons a.vc_btn3,
+	.cww-header-top .top-buttons .taco-btn,
+	.cww-header-top .top-buttons .by-button-widget .t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+		min-height: 60px;
+		height: auto;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+
+	.cww-header-top .top-buttons .taco-btn,
+	.cww-header-top .top-buttons .wpex-fa-social-widget,
+	.cww-header-top .top-buttons .by-button-widget {
+		font-size: 1.6em;
+	}
+
+	.cww-header-top .top-buttons .by-button-widget .t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+		font-size: 2.3em;
+		padding: 0 0.4em;
+	}
+
+	.cww-header-top .top-buttons .wpex-fa-social-widget {}
+
+	.cww-header-top .top-buttons .wpex-fa-social-widget ul li a {
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		width: 60px !important;
+		height: 60px !important;
+		line-height: 60px !important;
+	}
+
+	.cww-header-bottom {
+		min-height: auto;
+	}
+
+	.cww-header-bottom #site-logo {
+		display: none !important;
+	}
+
+	#site-logo-mobile,
+	.adaptive-menu {
+		display: block;
+	}
+
+	#site-logo-mobile {
+		margin-top: -220px;
+	}
+
+	.cww-logo {
+		margin-top: 0;
+		margin-left: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.cww-header-bottom > .menu-navigation-container {
+		position: fixed;
+		top: 0;
+		right: 0;
+		background: #67c6e0;
+		z-index: 99999;
+		max-height: 100%;
+		overflow-y: scroll;
+	}
+
+	.admin-bar .cww-header-bottom > .menu-navigation-container {
+		top: 32px;
+	}
+
+	#primary-menu {
+		padding: 0 0 108px 3px;
+		width: 100%;
+		max-width: 630px;
+		pointer-events: none;
+	}
+
+	#primary-menu:before {
+		content: "\2715";
+		color: #fff;
+		padding: 30px 30px 22px 40px;
+		display: inline-block;
+		width: 100%;
+		text-align: left;
+		font-size: 3.5em;
+		border-bottom: 3px solid #fff;
+		pointer-events: all;
+	}
+
+	#primary-menu li {
+		position: relative;
+		width: 100%;
+		margin: 0;
+		text-align: left;
+		font-size: 2.5em;
+		border-bottom: 3px solid #fff;
+		pointer-events: all;
+	}
+
+	#primary-menu li:after {
+		content: "\0221F";
+		position: absolute;
+		font-size: 0.8em;
+		top: 26px;
+		right: 30px;
+		margin: auto;
+		transform: rotate(225deg);
+		cursor: pointer;
+	}
+
+	#primary-menu li a {
+		color: #fff;
+		padding: 0.6em 1em;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#primary-sticky-menu {
+		display: none;
+	}
+
+	.promo-columns:first-child,
+	.promo-columns:last-child {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.promo-columns .wpb_single_image,
+	.promo-columns .wpb_text_column {
+		display: inline-block;
+		width: 49%;
+		vertical-align: middle;
+	}
+
+	.promo-columns.admission-general img {
+		padding-top: 0;
+		height: 200px;
+	}
+}
+
+@media (max-width: 782px) {
+	.admin-bar .cww-sticky-header {
+		padding-top: 46px;
+	}
+
+	.admin-bar .cww-header-bottom > .menu-navigation-container {
+		top: 46px;
+	}
+
+	.admin-bar .adaptive-menu.adaptive-sticky {
+		top: 46px;
+	}
+}
+
+@media (max-width: 767px) {
+	.cww-header-top .top-buttons {
+		padding-right: 70px;
+		padding-left: 70px;
+	}
+
+	.cww-header-top .top-buttons .taco-btn,
+	.cww-header-top .top-buttons .wpex-fa-social-widget,
+	.cww-header-top .top-buttons .by-button-widget {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 80%;
+		min-width: 340px;
+	}
+
+	.cww-header-top .top-buttons .wpex-fa-social-widget ul {
+		text-align: center;
+	}
+
+	.cww-header-top .top-buttons .wpex-fa-social-widget ul li {
+		float: none;
+		display: inline-block;
+	}
+
+	.cww-header-top .top-buttons .by-button-widget .t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.promo-columns .wpb_single_image,
+	.promo-columns .wpb_text_column {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 500px) {
+	.cww-header-top .top-buttons {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 60px;
+	}
+
+	.admin-bar .cww-header-top .top-buttons {
+		padding-top: 106px;
+	}
+
+	.by-button-widget {
+		width: 100%;
+	}
+
+	.cww-header-top .top-buttons a.vc_btn3,
+	.cww-header-top .top-buttons .taco-btn {
+		padding: 0.5em 0.5em;
+	}
+
+	.cww-header-top .top-buttons .taco-btn,
+	.cww-header-top .top-buttons .wpex-fa-social-widget,
+	.cww-header-top .top-buttons .by-button-widget {
+		width: 100%;
+		max-width: 100%;
+		min-width: unset;
+		white-space: normal;
+	}
+
+	.cww-header-top .top-buttons .by-button-widget .t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+		padding: 0 0.2em;
+	}
+
+	.cww-header-bottom h1,
+	.cww-header-bottom h2,
+	.cww-header-bottom .by-button-widget {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.adaptive-menu {
+		top: 0;
+	}
+
+	.admin-bar .adaptive-menu {
+		top: 46px;
+	}
+
+	#primary-menu li {
+		font-size: 2em;
+	}
+
+	.vc-max-width-80 {
+		margin-left: 15px !important;
+		margin-right: 15px !important;
+	}
+
+	.vc_row.wpex-vc-reset-negative-margin {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	.wave-border {
+		margin-top: -25px;
+	}
+
+	.t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+		padding: 0.05em 0 0.15em;
+		width: 100%;
+	}
+
+	.promo-columns-wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#footer-bottom {
+		padding: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	#primary-menu {
+		display: block !important;
+	}
+}
+
+@media (min-width: 1650px) {}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {}
