@@ -48,7 +48,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				if ( ! empty( $total_bg_img ) ) {
 					$total_bg_style = 'style="background-image: url(' . $total_bg_img . ');"';
 				} else {
-					$total_bg_style = 'style="background-image: url(' . TOTAL_CHILD_THEME_DIR_URL . '/assets/chocolate-background.png);"';
+					$total_bg_style = 'style="background-image: url(' . TOTAL_CHILD_THEME_DIR_URL . '/assets/fest-background.jpg);"';
 				}
 				?>
 				<div class="cww-header-bottom vc_row wpb_row vc_row-fluid" <?php echo $total_bg_style; ?>>
