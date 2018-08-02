@@ -535,6 +535,7 @@ p, li {
 	font-size: 1em;
 	margin-top: -1px;
 	margin-bottom: -1px;
+	min-height: 770px;
 }
 
 #footer-bottom-inner {

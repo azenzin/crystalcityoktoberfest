@@ -23,9 +23,9 @@ if ( $align = wpex_get_mod( 'bottom_footer_text_align' ) ) {
 	})(jQuery);
 </script>
 <div id="before-footer">
-	<img src="<?php echo TOTAL_CHILD_THEME_DIR_URL; ?>/assets/footer_bg.png" alt="">
+	<img src="<?php echo TOTAL_CHILD_THEME_DIR_URL; ?>/assets/pennants-separation.png" alt="">
 </div>
-<div id="footer-bottom" class="<?php echo esc_attr( $classes ); ?>"<?php wpex_schema_markup( 'footer_bottom' ); ?>>
+<div id="footer-bottom" class="<?php echo esc_attr( $classes ); ?>"<?php wpex_schema_markup( 'footer_bottom' ); ?> style="background: url('<?php echo TOTAL_CHILD_THEME_DIR_URL; ?>/assets/footer_bg.jpg');">
 	<div id="footer-bottom-inner" class="container-fluid clr">
 		<div class="vc_row wpb_row vc_row-fluid row-o-equal-height vc_row-flex">
 			<div class="wpb_column vc_column_container vc_col-lg-3 vc_col-sm-6 vc_col-xs-12 footer-col">
@@ -51,9 +51,6 @@ if ( $align = wpex_get_mod( 'bottom_footer_text_align' ) ) {
 		</div>
 	</div><!-- #footer-bottom-inner -->
 </div><!-- #footer-bottom -->
-<div id="after-footer">
-	<img src="<?php echo TOTAL_CHILD_THEME_DIR_URL; ?>/assets/bottom-melted-chocolate.png" alt="">
-</div>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
