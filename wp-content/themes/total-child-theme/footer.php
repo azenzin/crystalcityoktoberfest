@@ -23,7 +23,7 @@ if ( $align = wpex_get_mod( 'bottom_footer_text_align' ) ) {
 	})(jQuery);
 </script>
 <div id="before-footer">
-	<img src="<?php echo TOTAL_CHILD_THEME_DIR_URL; ?>/assets/top-melted-chocolate.png" alt="">
+	<img src="<?php echo TOTAL_CHILD_THEME_DIR_URL; ?>/assets/footer_bg.png" alt="">
 </div>
 <div id="footer-bottom" class="<?php echo esc_attr( $classes ); ?>"<?php wpex_schema_markup( 'footer_bottom' ); ?>>
 	<div id="footer-bottom-inner" class="container-fluid clr">
