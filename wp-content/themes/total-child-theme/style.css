@@ -12,6 +12,7 @@
 @import url('fonts/TradeGothicDisplay1-Layer1/TradeGothicDisplay1-Layer1.css');
 @import url('fonts/Gothic-A1/Gothic-A1.css');
 @import url('fonts/Rubik/Rubik.css');
+@import url('fonts/Oswald/stylesheet.css');
 
 /**
  * General
@@ -60,7 +61,7 @@ p, li {
 .cww-header-top .top-buttons a {
 	font-family: Gothic-A1, sans-serif;
 	vertical-align: middle;
-	background-color: #67c6e0;
+	background-color: #408bca;
 	color: #fff;
 	text-align: center;
 	margin-right: 1em;
@@ -146,21 +147,21 @@ p, li {
 }
 
 .cww-header-bottom h1 {
-	font-family: TradeGothicDisplay1-Layer1, sans-serif;
-	font-size: 3.5em;
+	font-family: Oswald, sans-serif;
+	font-size: 4.5em;
 	color: #fff;
 	margin-top: 20px;
 	margin-bottom: 0;
-	line-height: 1.4em;
 }
 
 .cww-header-bottom h2 {
-	font-family: Gothic-A1, sans-serif;
-	font-size: 1.95em;
+	font-family: Roboto, sans-serif;
+	font-size: 2em;
 	color: #fff;
-	line-height: 1.5em;
+	line-height: 1.2em;
 	margin-top: 0;
 	margin-bottom: 0;
+	text-shadow: 0 0 10px #000;
 }
 
 /* Logo */
@@ -193,17 +194,18 @@ p, li {
 }
 
 #primary-menu li {
-	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	font-family:  Oswald,sans-serif;
 	font-size: 1.25em;
-	color: #fff;
+	color: #eeb93c;
 	display: inline-block;
 	font-weight: 600;
 	text-decoration: none;
+	text-align: right;
 	margin: 15px 10px;
 }
 
 #primary-menu li a {
-	color: #fff;
+	color: #eeb93c;
 }
 
 #primary-menu li.current-menu-item {
@@ -211,7 +213,8 @@ p, li {
 }
 
 #primary-menu li.current-menu-item a {
-	color: yellow;
+	background-image: url("assets/light-shadow.png");
+	color: #eeb93c;
 }
 
 /* Mobile Menu */
