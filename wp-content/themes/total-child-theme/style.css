@@ -449,7 +449,7 @@ p, li {
     padding-bottom: 0;
 }
 
-.admission-general-vip h1{
+.admission-vip h1{
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     font-size: 3em;
@@ -458,7 +458,7 @@ p, li {
     text-align: center
 }
 
-.admission-general h2{
+.admission-vip h2{
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 2.2em;
