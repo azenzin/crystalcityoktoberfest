@@ -41,6 +41,15 @@ p, li {
 	text-align: center;
 }
 
+h5 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
+	line-height: 1em;
+	color: #408bca;
+	text-align: center;
+}
+
 /**
  * Header
  */
@@ -59,7 +68,7 @@ p, li {
 }
 
 .cww-header-top .top-buttons a {
-	font-family: Gothic-A1, sans-serif;
+	font-family: Roboto, sans-serif;
 	vertical-align: middle;
 	background-color: #408bca;
 	color: #fff;
@@ -70,14 +79,14 @@ p, li {
 
 .cww-header-top .top-buttons a.vc_btn3,
 .cww-header-top .top-buttons .taco-btn {
-	font-family: Gothic-A1, sans-serif;
+	font-family: Roboto, sans-serif;
 	padding: 0.5em 1.1em;
 	font-size: 1.1em;
 	line-height: 1.3em;
 	border-radius: 0.3em;
 	border: 0;
 	margin-right: 1em;
-	height: 40px;
+	height: 50px;
 	transition: 0.15s all ease;
 }
 
@@ -126,15 +135,20 @@ p, li {
 
 .cww-header-top .top-buttons .by-button-widget .t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
 	background-image: none !important;
-	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	font-family: Oswald, sans-serif;
+	font-weight: 700;
 	background-color: #e30613;
 	color: #fff;
 	padding: 0.1em 0.6em;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	border-radius: 0.3em;
 	text-align: center;
-	height: 40px;
+	height: 50px;
 	border: 0;
+}
+
+#footer-bottom .by_button_widget a{
+	font-size: 2.2em;
 }
 
 /* Header Bottom */
@@ -249,7 +263,7 @@ p, li {
 /* Buy-Button button in Header Bottom */
 .cww-header-bottom .vc_general.vc_btn3.buy-button {
 	background-image: none !important;
-	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	font-family: Osawald, sans-serif;
 	font-size: 4.7em;
 	line-height: 1em;
 	text-align: center;
@@ -537,9 +551,9 @@ p, li {
 
 .t-buy-tickets-btn a.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
 	background-image: none !important;
-	font-family: TradeGothicDisplay1-Layer1, sans-serif;
+	font-family: Oswald, sans-serif;
 	font-size: 4.7em;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 1em;
 	text-align: center;
 	margin: 0;
