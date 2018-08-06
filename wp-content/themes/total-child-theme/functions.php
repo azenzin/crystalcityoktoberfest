@@ -51,7 +51,7 @@ add_action( 'after_setup_theme', 'total_child_setup_images' );
 
 /* Add custom fonts to font settings */
 function wpex_add_custom_fonts() {
-	return array( 'TradeGothicDisplay1-Layer1', 'Gothic-A1', 'Rubik' ); // You can add more then 1 font to the array!
+	return array( 'TradeGothicDisplay1-Layer1', 'Gothic-A1', 'Rubik', 'Oswald' ); // You can add more then 1 font to the array!
 }
 
 /**
