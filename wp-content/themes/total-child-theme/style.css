@@ -399,12 +399,12 @@ p, li {
 	width: auto;
 }
 
-.promo-columns.admission-general img {
+.promo-columns .admission-general img {
 	padding-top: 60px;
 	height: 260px;
 }
 
-.promo-columns.admission-vip img {
+.promo-columns .admission-vip img {
 	height: 260px;
 }
 
@@ -427,6 +427,46 @@ p, li {
 	margin-right: 0.2em;
 	margin-bottom: 0.1em;
 	border-radius: 50%;
+}
+
+.admission-general h1{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 1em;
+    color: #fff;
+    text-align: center
+}
+
+.admission-general h2{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.admission-general-vip h1{
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 1em;
+    color: #eeb93c;
+    text-align: center
+}
+
+.admission-general h2{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 1.2em;
+    color: #eeb93c;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .promo-columns.admission-general ul li::before {
