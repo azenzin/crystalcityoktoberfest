@@ -452,7 +452,7 @@ h5 {
     text-align: center
 }
 
-.admission-general h2{
+.promo-columns .admission-general h2{
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 2.2em;
@@ -461,6 +461,14 @@ h5 {
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+.admission-white-colums {
+	min-height: 490px;
+}
+
+.admission-white-colums p:first-of-type {
+	padding-top: 10px;
 }
 
 .admission-vip h1{
@@ -472,7 +480,7 @@ h5 {
     text-align: center
 }
 
-.admission-vip h2{
+.promo-columns  .admission-vip h2{
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 2.2em;
