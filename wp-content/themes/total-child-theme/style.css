@@ -119,7 +119,7 @@ h5 {
 }
 
 .cww-header-top .top-buttons .wpex-fa-social-widget ul li a {
-	font-size: inherit;
+	font-size: 0.8em;
 	margin-right: 1em;
 }
 
@@ -581,7 +581,10 @@ h5 {
 /**
  * Footer
  */
-#before-footer {}
+#before-footer {
+	position: relative;
+	top: 3.7em;
+}
 
 #after-footer {
 	padding-bottom: 40px;
