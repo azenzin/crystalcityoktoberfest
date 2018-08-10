@@ -607,12 +607,17 @@ h5 {
 }
 
 #footer-bottom-inner {
-	padding-top: 0;
+	padding-top: 105px;
 	padding-bottom: 0;
 }
 
 #footer-bottom .footer-col {
 	padding: 0 15px;
+	text-shadow: 0 0 10px #000;
+}
+
+.footer-widget .widget-title {
+	text-align: center;
 }
 
 #footer-bottom .footer-col:first-of-type {}
@@ -677,7 +682,7 @@ h5 {
 	height: 50px;
 	width: 100%;
 	color: #a6a6a6;
-	border: 1px solid #971762;
+	border: 1px solid #408bca;
 	border-radius: 0;
 	text-align: left;
 }
@@ -691,7 +696,7 @@ h5 {
 	font-size: 1.7em;
 	font-family: Gothic-A1, sans-serif;
 	font-weight: 700;
-	background-color: #971762;
+	background-color: #408bca;
 	border-radius: 0;
 	transition: 0.15s all ease;
 }
@@ -732,7 +737,7 @@ h5 {
 
 #footer-bottom .blue-footer-column .vc_column-inner {
 	padding-bottom: 10px;
-	background-color: #64c5e1;
+	background-color: #861d0d;
 }
 
 #footer-bottom .blue-footer-column p {
