@@ -103,7 +103,7 @@ h5 {
 	margin-bottom: 1em;
 	float: none;
 	vertical-align: middle;
-	font-size: 1.1em;
+	font-size: 1.25em;
 }
 
 /* Social buttons in Header Top */
@@ -140,7 +140,7 @@ h5 {
 	background-color: #e30613;
 	color: #fff;
 	padding: 0.1em 0.6em;
-	font-size: 1.6em;
+	font-size: 1.85em;
 	border-radius: 0.3em;
 	text-align: center;
 	height: 50px;
@@ -162,7 +162,9 @@ h5 {
 
 .cww-header-bottom h1 {
 	font-family: Oswald, sans-serif;
-	font-size: 4.5em;
+	font-size: 3.5em;
+	line-height: 1.4em;
+	font-weight: 500;
 	color: #fff;
 	margin-top: 20px;
 	margin-bottom: 0;
@@ -170,9 +172,9 @@ h5 {
 
 .cww-header-bottom h2 {
 	font-family: Roboto, sans-serif;
-	font-size: 2em;
+	font-size: 1.95em;
 	color: #fff;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	margin-top: 0;
 	margin-bottom: 0;
 	text-shadow: 0 0 10px #000;
@@ -406,7 +408,7 @@ h5 {
 }
 
 .promo-columns p {
-	margin-bottom: 7px;
+	margin: 15px 0;
 }
 
 .promo-columns img {
@@ -468,7 +470,7 @@ h5 {
 }
 
 .admission-white-colums p:first-of-type {
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 .admission-vip h1{
@@ -742,17 +744,28 @@ h5 {
 
 #footer-bottom .blue-footer-column p {
 	padding: 0 15px;
-	color: #3c3c3b;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	font-size: 1em;
 }
 
 #footer-bottom .black-footer-text {
 	color: #3c3c3b;
 }
 
+.blue-footer-column .widget-title{
+	color: #fff;
+	font-size: 2em;
+	margin-top: 1.8em;
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+}
+
 #footer-bottom .vc_btn3.vc_btn3-size-md.buy-button-footer {
 	background-color: #fff;
 	border-radius: 8px;
-	color: #d41039;
+	color: #fff;
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 1.5em;

@@ -61,7 +61,7 @@ if ( $align = wpex_get_mod( 'bottom_footer_text_align' ) ) {
 
 	window.EBWidgets.createWidget({
 		widgetType: 'checkout',
-		eventId: '46666066461',
+		eventId: '48106704448',
 		modal: true,
 		modalTriggerElementId: 'eventbrite-widget-modal-trigger-46666066461',
 		onOrderComplete: exampleCallback
@@ -130,7 +130,7 @@ if ( $align = wpex_get_mod( 'bottom_footer_text_align' ) ) {
 	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js"
 	        data-dojo-config="usePlainJson: true, isDebug: false"></script>
 	<script type="text/javascript">require(["mojo/signup-forms/Loader"], function (L) {
-			L.start({"baseUrl": "mc.us8.list-manage.com", "uuid": "9f71368dc454f7ad28ffeb362", "lid": "3c046899a7"})
+			L.start({"baseUrl": "mc.us8.list-manage.com", "uuid": "9f71368dc454f7ad28ffeb362", "lid": "6e282ce59c"})
 		})</script>
 <?php } ?>
 
