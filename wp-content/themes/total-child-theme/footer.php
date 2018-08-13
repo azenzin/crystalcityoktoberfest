@@ -63,7 +63,7 @@ if ( $align = wpex_get_mod( 'bottom_footer_text_align' ) ) {
 		widgetType: 'checkout',
 		eventId: '48106704448',
 		modal: true,
-		modalTriggerElementId: 'eventbrite-widget-modal-trigger-46666066461',
+		modalTriggerElementId: 'eventbrite-widget-modal-trigger-48106704448',
 		onOrderComplete: exampleCallback
 	});
 </script>
