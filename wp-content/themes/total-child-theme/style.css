@@ -532,13 +532,13 @@ h5 {
 .wpcf7-form select {
 	width: 100%;
 	min-height: 50px;
-	font-family: Gothic-A1, sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1.4em;
-	color: #5a2918;
+	color: #408bca;
 	line-height: 1.4;
 	font-weight: 700;
 	/*border: 0;*/
-	background: rgba(90, 41, 24, 0.1);
+	background: rgba(217, 234, 248, 0.1);
 	padding: 6px 12px;
 }
 
@@ -548,11 +548,11 @@ h5 {
 
 .wpcf7-form input[type=submit] {
 	color: #fff;
-	font-family: Gothic-A1, sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1.4em;
 	font-weight: 700;
 	line-height: 1.4;
-	background: #67c6e0;
+	background: #ee7202;
 	width: 100%;
 	height: 50px;
 	border-radius: 0;
