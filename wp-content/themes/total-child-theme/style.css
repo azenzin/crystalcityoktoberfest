@@ -558,6 +558,10 @@ h5 {
 	padding: 5px 10px;
 }
 
+.wpcf7-form input[type=submit]:hover {
+	opacity: 0.8;
+}
+
 /* Buy-Button button */
 .vc_btn3-container.t-buy-tickets-btn {
 	margin-top: 0;
@@ -804,6 +808,10 @@ h5 {
 }
 
 #primary-menu-footer {}
+
+#footer-bottom #menu-navigation {
+	margin-top: 30px;
+}
 
 #primary-menu-footer li,
 #footer-bottom #menu-navigation li {
