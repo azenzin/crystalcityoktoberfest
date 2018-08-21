@@ -15,6 +15,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?><!DOCTYPE html>
 <html <?php language_attributes(); ?><?php wpex_schema_markup( 'html' ); ?>>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122763273-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122763273-2');
+    </script>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>

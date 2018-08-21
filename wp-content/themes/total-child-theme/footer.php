@@ -70,55 +70,22 @@ if ( $align = wpex_get_mod( 'bottom_footer_text_align' ) ) {
 
 <!-- Facebook Pixel Code -->
 <script>
-	var options = {},
-		isFBPixelEnabled = false,
-		isFBADSPixelEnabled = true;
-
-	function _buildTrackPixel(eventName, pixelId, options) {
-		var img = document.createElement('img'),
-			pixelId = pixelId,
-			baseUrl = 'https://www.facebook.com/tr',
-			imageUrl = baseUrl + '?id=' + pixelId + '&ev=' + eventName + '&noscript=1&eventref=fb_oea';
-		for (var key in options) {
-			if (options.hasOwnProperty(key)) {
-				imageUrl += '&cd[' + key + ']=' + options[key];
-			}
-		}
-		img.src = imageUrl;
-		img.height = '1';
-		img.width = '1';
-		img.style.display = 'none';
-		document.body.appendChild(img);
-	}
-
-	function facebookTrackPixel(eventName, options) {
-		if (!isFBPixelEnabled) {
-			return
-		}
-		_buildTrackPixel(
-			eventName,
-			'1070931846288596',
-			options
-		);
-	}
-
-	function facebookADSTrackPixel(eventName, options) {
-		if (!isFBADSPixelEnabled) {
-			return
-		}
-		_buildTrackPixel(
-			eventName,
-			'1595986097313505',
-			options
-		);
-	}
-
-	window.facebookTrackPixel = window.facebookTrackPixel || facebookTrackPixel;
-	window.facebookADSTrackPixel = window.facebookADSTrackPixel || facebookADSTrackPixel;
-	options['content_type'] = 'product';
-	options['content_ids'] = ['46666066461'];
-	facebookADSTrackPixel('ViewContent', options);
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2111003275828971');
+    fbq('track', 'PageView');
 </script>
+<noscript>
+    <img height="1" width="1"
+         src="https://www.facebook.com/tr?id=2111003275828971&ev=PageView
+&noscript=1"/>
+</noscript>
 <!-- End Facebook Pixel Code -->
 
 <?php wpex_hook_footer_bottom_after(); ?>
