@@ -31,6 +31,14 @@ class Fest_City_Plugin_Activator {
 	 */
 	public static function activate() {
 
+        $postarr = [
+            'post_title' => 'Locations',
+            'post_type' => 'page'
+        ];
+
+        $post_id = wp_insert_post($postarr);
+        update_post_meta($post_id, '_wp_page_template', 'page-location.php');
+	    
 	}
 
 }

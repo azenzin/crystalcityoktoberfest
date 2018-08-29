@@ -156,6 +156,8 @@ class Fest_City_Plugin {
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
+		$this->loader->add_action( 'custom_post_type', $plugin_admin, 'init' );
+		$this->loader->add_action( 'register_taxonomy_city', $plugin_admin, 'init' );
 
 	}
 

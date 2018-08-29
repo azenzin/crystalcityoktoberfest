@@ -100,4 +100,45 @@ class Fest_City_Plugin_Admin {
 
 	}
 
+    public function custom_post_type()
+    {
+        register_post_type('city',
+            array(
+                'labels'      => array(
+                    'name'          => __('Cities'),
+                    'singular_name' => __('City'),
+                ),
+                'public'      => true,
+                'has_archive' => true,
+                'rewrite'     => array( 'slug' => 'city' ),
+            )
+        );
+    }
+
+    function register_taxonomy_city()
+    {
+        $labels = [
+            'name'              => _x('Locations', 'taxonomy general name'),
+            'singular_name'     => _x('Location', 'taxonomy singular name'),
+            'search_items'      => __('Search Locations'),
+            'all_items'         => __('All Locations'),
+            'parent_item'       => __('Parent Location'),
+            'parent_item_colon' => __('Parent Location:'),
+            'edit_item'         => __('Edit Location'),
+            'update_item'       => __('Update Location'),
+            'add_new_item'      => __('Add New Location'),
+            'new_item_name'     => __('New Location'),
+            'menu_name'         => __('Locations'),
+        ];
+        $args = [
+            'hierarchical'      => true, // make it hierarchical (like categories)
+            'labels'            => $labels,
+            'show_ui'           => true,
+            'show_admin_column' => true,
+            'query_var'         => true,
+            'rewrite'           => ['slug' => 'location'],
+        ];
+        register_taxonomy('course', ['city', 'page'], $args);
+    }
+
 }
