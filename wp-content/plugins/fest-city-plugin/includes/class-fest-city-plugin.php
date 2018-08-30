@@ -158,6 +158,9 @@ class Fest_City_Plugin {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 		$this->loader->add_action( 'custom_post_type', $plugin_admin, 'init' );
 		$this->loader->add_action( 'register_taxonomy_city', $plugin_admin, 'init' );
+        vc_add_shortcode_param('vc_cat_param','vcCatParam');
+        vc_add_shortcode_param('vc_color_picker_param','vcColorParam',$TBPluginUrl.'js/visual_composer/vc_color_picker_param.js');
+        $this->loader->add_action( 'vc_before_init', $plugin_admin, 'regVcParam' );
 
 	}
 
